@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="myToastScale">
+        <item name="android:windowEnterAnimation">@anim/toast_enter</item>
+        <item name="android:windowExitAnimation">@anim/toast_out</item>
+    </style>
+    <style name="myToastUpDown">
+        <item name="android:windowEnterAnimation">@anim/toast_downenter</item>
+        <item name="android:windowExitAnimation">@anim/toast_downout</item>
+    </style>
+    <style name="myToastLeftRight">
+        <item name="android:windowEnterAnimation">@anim/toast_leftin</item>
+        <item name="android:windowExitAnimation">@anim/toast_rightout</item>
+    </style>
+
+</resources>
