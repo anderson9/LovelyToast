@@ -8,10 +8,10 @@ Make u Toast become lovely and alive,
 
 
 ###preview
-![gif](http://i1.piimg.com/4851/5cdda9ba1f99fed1.gif)
-![gif](http://i1.piimg.com/4851/f4e2368d77de3447.gif)
-![gif](http://i1.piimg.com/4851/02ee9b9dbe9e141f.gif)
-![gif](http://i1.piimg.com/4851/f0877a79ee62a397.gif)
+![gif](https://github.com/anderson9/LovelyToast/blob/master/gif/3anim.gif)
+![gif](https://github.com/anderson9/LovelyToast/blob/master/gif/6type.gif)
+![gif](https://github.com/anderson9/LovelyToast/blob/master/gif/quickclick.gif)
+![gif](https://github.com/anderson9/LovelyToast/blob/master/gif/left_or_right.gif)
 
 ###Dependency
 
