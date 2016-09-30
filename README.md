@@ -13,7 +13,7 @@ Make u Toast become lovely and alive,
 ![gif](https://github.com/anderson9/LovelyToast/blob/master/gif/quickclick.gif)
 ![gif](https://github.com/anderson9/LovelyToast/blob/master/gif/left_or_right.gif)
 
-###Dependency
+###Dependency(引入)
 
 ```
 dependencies {
@@ -39,30 +39,30 @@ LovelyToast.makeText(mActivity.this, " Hi guys !",LovelyToast.LENGTH_SHORT , Lov
 
 ####parms
 
-type :
-LovelyToast.SUCCESS,
-LovelyToast.WARNING,
-LovelyToast.ERROR，
-LovelyToast.CONFUSING，
-LovelyToast..INFO，
-LovelyToast.DEFAULT。
+type :(六种Toast类型分别)
+- LovelyToast.SUCCESS,
+- LovelyToast.WARNING,
+- LovelyToast.ERROR，
+- LovelyToast.CONFUSING，
+- LovelyToast..INFO，
+- LovelyToast.DEFAULT。
 
-showanim :
- LovelyToast.SCALE
- LovelyToast.TOP_DOWN
- LovelyToast.LEFT_RIGHT
- custom style,
-null=native anim;
+showanim :（三种Toast展示动画）
+-  LovelyToast.SCALE
+-  LovelyToast.TOP_DOWN
+-  LovelyToast.LEFT_RIGHT
+-  custom style,（可以自定义）
+- null=native anim;（不填默认原生动画）
 
-leftorright:
-LovelyToast.LEFT
-LovelyToast.RIGHT
-null=LovelyToast.LEFT
+leftorright:(二种动画位置)
+- LovelyToast.LEFT
+- LovelyToast.RIGHT
+- null=LovelyToast.LEFT（不填默认左边动画）
 
 ####custom style
 ``` java
 LovelyToast.makeText(mActivity.this, " hi guys",LovelyToast.LENGTH_SHORT, LovelyToast.SUCCESS, R.style.customanim , LovelyToast.RIGHT)
-
+//引用自定义写的toast展示与退出动画，必须是R.style下的文件
 <style name="customanim">
         <item name="android:windowEnterAnimation">@anim/toast_enter</item>
         <item name="android:windowExitAnimation">@anim/toast_out</item>
@@ -81,3 +81,4 @@ If u like the LovelyToast,
 give me a star,
 don't be such a dick,
 u just do what u want to do.
+（不需要licence，大家想怎么用怎么用，给个star即可，thanks！！ ）
