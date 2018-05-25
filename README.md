@@ -7,23 +7,23 @@ Make u Toast become lovely and alive,
 * listen homekey to cancel Toast.(内部作了home键的监听取消Toast)
 
 
-###preview
+### preview
 ![gif](https://github.com/anderson9/LovelyToast/blob/master/gif/3anim.gif)
 ![gif](https://github.com/anderson9/LovelyToast/blob/master/gif/6type.gif)
 ![gif](https://github.com/anderson9/LovelyToast/blob/master/gif/quickclick.gif)
 ![gif](https://github.com/anderson9/LovelyToast/blob/master/gif/left_or_right.gif)
 
-###Dependency(引入)
+### Dependency(引入)
 
 ```
 dependencies {
 	compile 'com.ljs.lovelytoast:LovelyToast:1.0.0'
 }
 ```
-###This Demo
+### This Demo
 [this demo download](http://download.csdn.net/detail/luojiusan520/9643109)
 
-###Usage （用法）
+### Usage （用法）
 
 ``` java
 LovelyToast.makeText(mActivity.this, " SUCCESS!!", LovelyToast.LENGTH_SHORT,
@@ -37,7 +37,7 @@ LovelyToast.makeText(mActivity.this, " Hi guys !",LovelyToast.LENGTH_SHORT , Lov
 
 
 
-####parms
+#### parms
 
 type :(六种Toast类型分别)
 - LovelyToast.SUCCESS,
@@ -59,7 +59,7 @@ leftorright:(二种动画位置)
 - LovelyToast.RIGHT
 - null=LovelyToast.LEFT（不填默认左边动画）
 
-####custom style
+#### custom style
 ``` java
 LovelyToast.makeText(mActivity.this, " hi guys",LovelyToast.LENGTH_SHORT, LovelyToast.SUCCESS, R.style.customanim , LovelyToast.RIGHT)
 //引用自定义写的toast展示与退出动画，必须是R.style下的文件
@@ -69,12 +69,12 @@ LovelyToast.makeText(mActivity.this, " hi guys",LovelyToast.LENGTH_SHORT, Lovely
     </style>
 ```
 
-###Thanks
+### Thanks
 [https://github.com/geftimov/android-pathview](https://github.com/geftimov/android-pathview)
 
 ###Contributors
 I want to update this Toast and make it better. So any help will be appreciated. Make and pull - request and we can discuss it.
-###Licence
+### Licence
 This Licence,
 don't need a Public Licence!i don't care!
 If u like the LovelyToast,
